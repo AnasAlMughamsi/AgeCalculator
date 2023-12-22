@@ -6,3 +6,11 @@
 }
 
 
+@media screen and (max-width: 850px) {
+  #root {
+    /* max-width: 1280px; */
+    margin: auto;
+    /* padding: 0 2.75rem; */
+    /* text-align: center; */
+  }
+}

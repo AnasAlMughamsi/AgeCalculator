@@ -43,7 +43,9 @@ const AgeCalculator = () => {
 
         const formData = new FormData(e.target);
         const {days, months, years} = Object.fromEntries(formData);
+        
         console.log(Object.fromEntries(formData))
+
         const inputDate:any = new Date(`${years}-${months}-${days}`);
         const currentDate:any = new Date();
         const timeDiff = currentDate - inputDate;
